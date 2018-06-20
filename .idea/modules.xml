@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloudStudy.iml" filepath="$PROJECT_DIR$/SpringCloudStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itest-client/itest-client.iml" filepath="$PROJECT_DIR$/itest-client/itest-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-server/itest-server.iml" filepath="$PROJECT_DIR$/itest-server/itest-server.iml" />
     </modules>
   </component>
