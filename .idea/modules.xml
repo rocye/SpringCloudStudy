@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloudStudy.iml" filepath="$PROJECT_DIR$/SpringCloudStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-client/itest-client.iml" filepath="$PROJECT_DIR$/itest-client/itest-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itest-ribbon/itest-ribbon.iml" filepath="$PROJECT_DIR$/itest-ribbon/itest-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-server/itest-server.iml" filepath="$PROJECT_DIR$/itest-server/itest-server.iml" />
     </modules>
   </component>

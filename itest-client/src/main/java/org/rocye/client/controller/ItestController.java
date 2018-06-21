@@ -1,4 +1,4 @@
-package org.rocye.client;
+package org.rocye.client.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
