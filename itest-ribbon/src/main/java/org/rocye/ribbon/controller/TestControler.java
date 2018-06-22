@@ -13,7 +13,7 @@ public class TestControler {
 	private TestService testService;
 
 	@RequestMapping(value = "/testRibbon")
-	public String hi(@RequestParam String name){
+	public String test(@RequestParam String name){
 		return testService.testRibbon(name);
 	}
 }

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="itest-client" />
+        <module name="itest-feign" />
         <module name="itest-ribbon" />
         <module name="itest-server" />
         <module name="SpringCloudStudy" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itest-client" target="1.8" />
+      <module name="itest-feign" target="1.8" />
       <module name="itest-ribbon" target="1.8" />
       <module name="itest-server" target="1.8" />
       <module name="SpringCloudStudy" target="1.5" />
