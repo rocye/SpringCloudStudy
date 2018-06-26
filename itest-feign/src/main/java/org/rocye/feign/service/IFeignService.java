@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@Service
-@FeignClient(value = "itest-client")
+@Service("feignService")
+@FeignClient(value = "itest-client",fallback = FeignServiceHystrix.class)
 public interface IFeignService {
 
 	@RequestMapping(value = "/test", method = RequestMethod.GET)
