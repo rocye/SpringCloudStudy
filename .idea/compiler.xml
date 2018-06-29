@@ -8,16 +8,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="itest-client" />
         <module name="itest-feign" />
+        <module name="itest-order" />
         <module name="itest-ribbon" />
         <module name="itest-server" />
+        <module name="itest-turbine" />
         <module name="SpringCloudStudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="itest-client" target="1.8" />
       <module name="itest-feign" target="1.8" />
+      <module name="itest-order" target="1.8" />
       <module name="itest-ribbon" target="1.8" />
       <module name="itest-server" target="1.8" />
+      <module name="itest-turbine" target="1.8" />
       <module name="SpringCloudStudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>

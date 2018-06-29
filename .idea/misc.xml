@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/itest-client/pom.xml" />
         <option value="$PROJECT_DIR$/itest-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/itest-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/itest-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/itest-order/pom.xml" />
       </list>
     </option>
   </component>

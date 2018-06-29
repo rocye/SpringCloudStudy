@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 public class FeignServiceHystrix implements IFeignService {
 	@Override
 	public String testFeign(String name) {
-		return "hello " + name + ", happen error!";
+		return "order " + name + ", happen error!";
 	}
 }

@@ -10,6 +10,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+  instance:
+    metadata-map:
+      cluster: mycluster
+
 feign:
   hystrix:
     enabled: true

@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/itest-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itest-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itest-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itest-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itest-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itest-turbine" charset="UTF-8" />
   </component>
 </project>

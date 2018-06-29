@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: itest-turbine
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+turbine:
+  app-config: itest-ribbon,itest-feign
+  cluster-name-expression: metadata['cluster']
+  aggregator:
+    cluster-config: mycluster
+  combine-host-port: true
+
+  instanceUrlSuffix: /hystrix.stream
