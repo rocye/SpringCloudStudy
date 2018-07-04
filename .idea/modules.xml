@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/itest-ribbon/itest-ribbon.iml" filepath="$PROJECT_DIR$/itest-ribbon/itest-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-server/itest-server.iml" filepath="$PROJECT_DIR$/itest-server/itest-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-turbine/itest-turbine.iml" filepath="$PROJECT_DIR$/itest-turbine/itest-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itest-zuul/itest-zuul.iml" filepath="$PROJECT_DIR$/itest-zuul/itest-zuul.iml" />
     </modules>
   </component>
 </project>

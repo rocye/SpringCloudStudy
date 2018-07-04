@@ -1,0 +1,20 @@
+server:
+  port: 8766
+
+spring:
+  application:
+    name: itest-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: itest-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId: itest-feign

@@ -12,6 +12,7 @@
         <module name="itest-ribbon" />
         <module name="itest-server" />
         <module name="itest-turbine" />
+        <module name="itest-zuul" />
         <module name="SpringCloudStudy" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="itest-ribbon" target="1.8" />
       <module name="itest-server" target="1.8" />
       <module name="itest-turbine" target="1.8" />
+      <module name="itest-zuul" target="1.8" />
       <module name="SpringCloudStudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
