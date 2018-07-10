@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/itest-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/itest-order/pom.xml" />
         <option value="$PROJECT_DIR$/itest-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/itest-config/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,0 +1,20 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://github.com/rocye/SpringcloudConfig/
+          searchPaths: springcloudstudy
+#         username: ***
+#         password: ***
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

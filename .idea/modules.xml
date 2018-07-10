@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloudStudy.iml" filepath="$PROJECT_DIR$/SpringCloudStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-client/itest-client.iml" filepath="$PROJECT_DIR$/itest-client/itest-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itest-config/itest-config.iml" filepath="$PROJECT_DIR$/itest-config/itest-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-feign/itest-feign.iml" filepath="$PROJECT_DIR$/itest-feign/itest-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-order/itest-order.iml" filepath="$PROJECT_DIR$/itest-order/itest-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/itest-ribbon/itest-ribbon.iml" filepath="$PROJECT_DIR$/itest-ribbon/itest-ribbon.iml" />

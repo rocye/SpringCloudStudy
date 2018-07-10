@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+#      uri: http://localhost:8000/
+      label: master
+      profile: dev
+
+      discovery:
+        enabled: true
+        service-id: config-server
+
+#新版本新的配置方法: /actuator/refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["refresh"]

@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
         <module name="itest-client" />
+        <module name="itest-config" />
         <module name="itest-feign" />
         <module name="itest-order" />
         <module name="itest-ribbon" />
@@ -17,7 +19,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
       <module name="itest-client" target="1.8" />
+      <module name="itest-config" target="1.8" />
       <module name="itest-feign" target="1.8" />
       <module name="itest-order" target="1.8" />
       <module name="itest-ribbon" target="1.8" />
